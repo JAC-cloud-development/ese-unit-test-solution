@@ -1,0 +1,11 @@
+1: installare in dev "mocha" e "chai" (npm install --save-dev)
+2: importare "checkFive" da src a "test" per testarla
+3: creare un primo test anche vuoto (describe, it)
+
+Dopo ogni test verificare se il codice è corretto e nel caso correggerlo per fare in modo che il test passi
+
+4: verificare che il risultato è sempre una stringa (con input un numero) ( expect().to.be.a('number') )
+5: aggiungere codice nel test che verifica che passando un numero minore di 5 il risultato è "x is less than 5."
+6: aggiungere codice nel test che verifica che passando un numero maggiore di 5 il risultato è "x is greater than 5."
+==> 7: aggiungere codice nel test che verifica che passando 5 il risultato è "5 is equal to 5."
+==> 8: verificare che se viene passato qualcosa che non è un numero viene restituito -1
