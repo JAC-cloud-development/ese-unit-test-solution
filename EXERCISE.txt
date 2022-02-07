@@ -13,8 +13,12 @@ describe("first test", function () {
 
 Dopo ogni test verificare se il codice è corretto e nel caso correggerlo per fare in modo che il test passi
 
-4: verificare che il risultato è sempre una stringa (con input un numero) ( expect().to.be.a('string') )
-5: aggiungere codice nel test che verifica che passando un numero minore di 5 il risultato è "x is less than 5."
-6: aggiungere codice nel test che verifica che passando un numero maggiore di 5 il risultato è "x is greater than 5."
-==> 7: aggiungere codice nel test che verifica che passando 5 il risultato è "5 is equal to 5."
-==> 8: verificare che se viene passato qualcosa che non è un numero viene restituito -1
+4: verificare che il risultato è una stringa (con input un numero) ( expect().to.be.a('string') )
+5: verificare che passando un numero minore di 5 il risultato è "x is less than 5" (expect().to.equal())
+5 bis: fixare il codice se necessario
+6: aggiungere codice nel test che verifica che passando un numero maggiore di 5 il risultato è "x is greater than 5"
+6 bis: fixare il codice se necessario
+==> 7: aggiungere codice nel test che verifica che passando 5 il risultato è "5 is equal to 5"
+7 bis: aggiungere la funzionalità al codice se necessario
+==> 8: verificare che se viene passato qualcosa che non è un numero viene restituito "Error"
+8 bis: aggiungere la funzionalità al codice se necessario

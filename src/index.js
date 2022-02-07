@@ -9,9 +9,9 @@ if the input is not a number then return -1
 export function checkFive(num){
     let result = '';
     if (num > 5){
-      result = num + " is less than 5.";
+      result = num + " is less than 5";
     } else {
-      result = num + " is greater than 5.";
+      result = num + " is greater than 5";
     }
     return result;
   }
